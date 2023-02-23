@@ -1,0 +1,30 @@
+.h-size {
+    min-height: 60vh
+}
+
+.bg-dblue {
+    background-color: ;
+}
+
+.bg-img-h {
+    background-image: url("https://images.unsplash.com/photo-1629673120178-53a664eec9e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.mobile-hide {
+    display: none;
+}
+
+@media (max-width:786px) {
+    .mobile-bg-h {
+        background-image: url("https://images.unsplash.com/photo-1629673120178-53a664eec9e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+}
