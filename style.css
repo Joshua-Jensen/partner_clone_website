@@ -2,9 +2,7 @@
     min-height: 60vh
 }
 
-.bg-dblue {
-    background-color: ;
-}
+.bg-dblue {}
 
 .bg-img-h {
     background-image: url("https://images.unsplash.com/photo-1629673120178-53a664eec9e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80");
@@ -13,18 +11,43 @@
 
 }
 
-.mobile-hide {
-    display: none;
+.hl-bg {
+    background-color: grey;
+
 }
 
-@media (max-width:786px) {
-    .mobile-bg-h {
+.mobile-hide {
+    visibility: visible;
+}
+
+.bg-offwhite {
+    background-color: rgb(221, 209, 209);
+}
+
+.bg-img-chose-golf {
+    height: 30vh;
+    max-width: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.min-height-cg {
+    min-height: 30vh;
+}
+
+.fs-services {
+    font-size: x-small;
+}
+
+@media (max-width:768px) {
+    .hl-bg {
         background-image: url("https://images.unsplash.com/photo-1629673120178-53a664eec9e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80");
         background-size: cover;
         background-position: center;
     }
 
     .mobile-hide {
-        display: none;
+        visibility: hidden !important;
+        display: none !important;
     }
 }
